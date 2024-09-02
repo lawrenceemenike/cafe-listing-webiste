@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Listing</title>
+    <link rel="stylesheet" href="../frontend/styles.css">
+</head>
+<body>
+    <h1>Cafes with WiFi and Power</h1>
+    <div id="cafes"></div>
+    <form id="add-cafe-form">
+        <input type="text" id="name" placeholder="Cafe Name" required>
+        <input type="text" id="map_url" placeholder="Map URL" required>
+        <input type="text" id="img_url" placeholder="Image URL" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="text" id="seats" placeholder="Seats" required>
+        <input type="checkbox" id="has_toilet"> Has Toilet
+        <input type="checkbox" id="has_wifi"> Has WiFi
+        <input type="checkbox" id="has_sockets"> Has Sockets
+        <input type="checkbox" id="can_take_calls"> Can Take Calls
+        <input type="text" id="coffee_price" placeholder="Coffee Price">
+        <button type="submit">Add Cafe</button>
+    </form>
+    <script src="../frontend/script.js"></script>
+</body>
+</html>
